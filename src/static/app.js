@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const spotsLeft = details.max_participants - details.participants.length;
 
-        // 参加者リストのHTMLを生成
+        // Generate HTML for the participants list
         let participantsHTML = "";
         if (details.participants.length > 0) {
           participantsHTML = `
